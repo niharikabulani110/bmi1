@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="bmi.css">
+    </head>
+    <body>
+        <div align= "center" class="weight">
+            Your weight in Kgs: <input id="weight" type="number"/>
+        </div>
+        <div align= "center" class="height">
+            Your height in cms: <input id="height" type="number"/>
+        </div>
+        <div align= "center" class="button">
+            <button onclick="calculateBMI()">Calculate BMI</button>
+        </div>
+        <div class="result" id="result">
+        </div>
+         <div class="info" id="info">
+            <h3> INFORMATION TO ANALYZE </h3>
+          <p>The classification of weight status according to BMI ranges is as follows: individuals with a BMI below 18.5 are considered underweight, those within the range of 18.5 to 24.9 fall within the healthy weight category, individuals with a BMI between 25.0 and 29.9 are classified as overweight, and those with a BMI of 30.0 and above are categorized as obese.</p> 
+       </div>
+    </body>
+    <script src='bmi.js'></script>
+</html>
